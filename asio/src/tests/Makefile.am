@@ -44,6 +44,7 @@ check_PROGRAMS = \
 	unit/dispatch \
 	unit/error \
 	unit/execution/blocking \
+	unit/execution/outstanding_work \
 	unit/execution_context \
 	unit/executor \
 	unit/executor_work_guard \
@@ -185,6 +186,7 @@ TESTS = \
 	unit/dispatch \
 	unit/error \
 	unit/execution/blocking \
+	unit/execution/outstanding_work \
 	unit/execution_context \
 	unit/executor \
 	unit/executor_work_guard \
@@ -326,6 +328,7 @@ unit_detached_SOURCES = unit/detached.cpp
 unit_dispatch_SOURCES = unit/dispatch.cpp
 unit_error_SOURCES = unit/error.cpp
 unit_execution_blocking_SOURCES = unit/execution/blocking.cpp
+unit_execution_outstanding_work_SOURCES = unit/execution/outstanding_work.cpp
 unit_execution_context_SOURCES = unit/execution_context.cpp
 unit_executor_SOURCES = unit/executor.cpp
 unit_executor_work_guard_SOURCES = unit/executor_work_guard.cpp
